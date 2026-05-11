@@ -12,8 +12,10 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.36.3",

@@ -1,0 +1,184 @@
+/* 0x Proto Nerd Font */
+@font-face {
+  font-family: "0x Proto";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFont-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFont-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "0x Proto Mono";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto Mono";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto Mono";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "0x Proto Propo";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontPropo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto Propo";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontPropo-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "0x Proto Propo";
+  src: url("../assets/fonts/0x-proto/0xProtoNerdFontPropo-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Big Blue Term 437 Nerd Font */
+@font-face {
+  font-family: "Big Blue Term 437";
+  src: url("../assets/fonts/big-blue-term/BigBlueTerm437NerdFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Big Blue Term 437 Mono";
+  src: url("../assets/fonts/big-blue-term/BigBlueTerm437NerdFontMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Big Blue Term 437 Propo";
+  src: url("../assets/fonts/big-blue-term/BigBlueTerm437NerdFontPropo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Big Blue Term Plus Nerd Font */
+@font-face {
+  font-family: "Big Blue Term Plus";
+  src: url("../assets/fonts/big-blue-term/BigBlueTermPlusNerdFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Big Blue Term Plus Mono";
+  src: url("../assets/fonts/big-blue-term/BigBlueTermPlusNerdFontMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Big Blue Term Plus Propo";
+  src: url("../assets/fonts/big-blue-term/BigBlueTermPlusNerdFontPropo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Departure Mono Nerd Font */
+@font-face {
+  font-family: "Departure Mono";
+  src: url("../assets/fonts/departure/DepartureMonoNerdFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Departure Mono Mono";
+  src: url("../assets/fonts/departure/DepartureMonoNerdFontMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Departure Mono Propo";
+  src: url("../assets/fonts/departure/DepartureMonoNerdFontPropo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Google Sans Variable Font */
+@font-face {
+  font-family: "Google Sans";
+  src: url("../assets/fonts/google-sans/GoogleSans-VariableFont_GRAD,opsz,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("../assets/fonts/google-sans/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Open Sans Variable Font */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/open-sans/OpenSans-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/open-sans/OpenSans-Italic-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-0x-proto: "0x Proto", monospace;
+  --font-0x-proto-mono: "0x Proto Mono", monospace;
+  --font-0x-proto-propo: "0x Proto Propo", sans-serif;
+  --font-big-blue-term-437: "Big Blue Term 437", monospace;
+  --font-big-blue-term-437-mono: "Big Blue Term 437 Mono", monospace;
+  --font-big-blue-term-437-propo: "Big Blue Term 437 Propo", sans-serif;
+  --font-big-blue-term-plus: "Big Blue Term Plus", monospace;
+  --font-big-blue-term-plus-mono: "Big Blue Term Plus Mono", monospace;
+  --font-big-blue-term-plus-propo: "Big Blue Term Plus Propo", sans-serif;
+  --font-departure: "Departure Mono", monospace;
+  --font-departure-mono: "Departure Mono Mono", monospace;
+  --font-departure-propo: "Departure Mono Propo", sans-serif;
+  --font-google-sans: "Google Sans", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@import "./font-switcher.css";
+@import "./theme.css";
+
+@theme {
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-tertiary: var(--tertiary);
+    --color-quaternary: var(--quaternary);
+
+    --color-background: var(--background);
+    --color-surface: var(--surface);
+
+    --color-text: var(--text);
+    --color-text-muted: var(--text-muted);
+    --color-text-bright: var(--text-bright);
+
+    --color-border: var(--border);
+
+    --color-success: var(--success);
+    --color-warning: var(--warning);
+    --color-danger: var(--danger);
+
+    --font-body: var(--font-current);
+}
+
+html {
+    background-color: var(--background);
+}

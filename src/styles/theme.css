@@ -1,0 +1,168 @@
+/* =========================
+   default fallback (terminal)
+   prevents white flash before initTheme() runs
+========================= */
+
+:root {
+    --primary: #33ff33;
+    --secondary: #00cc66;
+    --tertiary: #ffcc00;
+    --quaternary: #66ccff;
+
+    --background: #0c0c0c;
+    --surface: #1a1a1a;
+
+    --text: #cccccc;
+    --text-muted: #808080;
+    --text-bright: #ffffff;
+
+    --border: #2a2a2a;
+
+    --success: #33ff33;
+    --warning: #ffcc00;
+    --danger: #ff3333;
+}
+
+/* =========================
+   terminal — classic green on black
+========================= */
+
+:root[data-theme="terminal"] {
+    --primary: #33ff33;
+    --secondary: #00cc66;
+    --tertiary: #ffcc00;
+    --quaternary: #66ccff;
+
+    --background: #0c0c0c;
+    --surface: #1a1a1a;
+
+    --text: #cccccc;
+    --text-muted: #808080;
+    --text-bright: #ffffff;
+
+    --border: #2a2a2a;
+
+    --success: #33ff33;
+    --warning: #ffcc00;
+    --danger: #ff3333;
+}
+
+/* =========================
+   dracula
+========================= */
+
+:root[data-theme="dracula"] {
+    --primary: #bd93f9;
+    --secondary: #ff79c6;
+    --tertiary: #8be9fd;
+    --quaternary: #f1fa8c;
+
+    --background: #282a36;
+    --surface: #44475a;
+
+    --text: #f8f8f2;
+    --text-muted: #6272a4;
+    --text-bright: #ffffff;
+
+    --border: #44475a;
+
+    --success: #50fa7b;
+    --warning: #ffb86c;
+    --danger: #ff5555;
+}
+
+/* =========================
+   monokai
+========================= */
+
+:root[data-theme="monokai"] {
+    --primary: #a6e22e;
+    --secondary: #f92672;
+    --tertiary: #66d9ef;
+    --quaternary: #ae81ff;
+
+    --background: #272822;
+    --surface: #3e3d32;
+
+    --text: #f8f8f2;
+    --text-muted: #75715e;
+    --text-bright: #ffffff;
+
+    --border: #49483e;
+
+    --success: #a6e22e;
+    --warning: #e6db74;
+    --danger: #f92672;
+}
+
+/* =========================
+   gruvbox
+========================= */
+
+:root[data-theme="gruvbox"] {
+    --primary: #d79921;
+    --secondary: #b8bb26;
+    --tertiary: #83a598;
+    --quaternary: #d3869b;
+
+    --background: #282828;
+    --surface: #3c3836;
+
+    --text: #ebdbb2;
+    --text-muted: #a89984;
+    --text-bright: #fbf1c7;
+
+    --border: #504945;
+
+    --success: #b8bb26;
+    --warning: #fabd2f;
+    --danger: #fb4934;
+}
+
+/* =========================
+   nord
+========================= */
+
+:root[data-theme="nord"] {
+    --primary: #88c0d0;
+    --secondary: #81a1c1;
+    --tertiary: #b48ead;
+    --quaternary: #ebcb8b;
+
+    --background: #2e3440;
+    --surface: #3b4252;
+
+    --text: #d8dee9;
+    --text-muted: #616e88;
+    --text-bright: #eceff4;
+
+    --border: #434c5e;
+
+    --success: #a3be8c;
+    --warning: #ebcb8b;
+    --danger: #bf616a;
+}
+
+/* =========================
+   kanagawa
+========================= */
+
+:root[data-theme="kanagawa"] {
+    --primary: #7e9cd8;
+    --secondary: #957fb8;
+    --tertiary: #e6c384;
+    --quaternary: #d27e99;
+
+    --background: #1f1f28;
+    --surface: #2a2a37;
+
+    --text: #dcd7ba;
+    --text-muted: #727169;
+    --text-bright: #f0ecd8;
+
+    --border: #363646;
+
+    --success: #98bb6c;
+    --warning: #e6c384;
+    --danger: #e46876;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="240pt"
+    height="240pt"
+    viewBox="0 0 240 240">
+<defs/>
+<ellipse id="shape0" transform="matrix(1.02040816458749 0 0 1.02960102960103 6.73469373078905 15.7528957528957)" rx="111" ry="101.25" cx="111" cy="101.25" fill="transparent" fill-rule="evenodd" stroke="currentColor" stroke-width="12" stroke-linecap="square" stroke-linejoin="bevel"/><ellipse id="shape1" transform="translate(186.000000000226, 87)" rx="9" ry="13.5" cx="9" cy="13.5" fill="currentColor" fill-rule="evenodd" stroke="currentColor" stroke-width="0.3" stroke-linecap="square" stroke-linejoin="bevel"/><ellipse id="shape01" transform="translate(56.25, 91.2)" rx="9.75" ry="13.5" cx="9.75" cy="13.5" fill="currentColor" fill-rule="evenodd" stroke="currentColor" stroke-width="0.3" stroke-linecap="square" stroke-linejoin="bevel"/><path id="shape2" transform="translate(78.0749999999994, 130.949999999999)" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" krita:marker-fill-method="auto" d="M0 2.475L110.925 0" sodipodi:nodetypes="cc"/>
+</svg>

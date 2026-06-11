@@ -7,65 +7,14 @@ export interface Note {
 }
 
 export const notes: Note[] = [
-  {
-    slug: "nix-shell- Survival 101",
-    title: "nix-shell Survival 101",
-    author: "chicocaine",
-    date: "2026-06-05 14:32 UTC+8",
-    content: `# nix-shell Survival 101
-
-So you've installed NixOS and nothing works. Welcome.
-
-## The basics
-
-\`nix-shell -p\` is your new best friend. Need a tool for five minutes?
-Don't install it globally. Just:
-
-\`\`\`
-nix-shell -p python3
-\`\`\`
-
-Boom. Temporary Python. When you exit the shell, it's gone.
-No clutter. No broken system. This is the way.
-
-## direnv + nix shell
-
-Install \`direnv\` and \`nix-direnv\`, then drop a \`.envrc\`:
-
-\`\`\`
-use nix
-\`\`\`
-
-And a \`shell.nix\`:
-
-\`\`\`
-{ pkgs ? import <nixpkgs> {} }:
-pkgs.mkShell {
-  buildInputs = [ pkgs.nodejs pkgs.typescript ];
-}
-\`\`\`
-
-Now every time you cd into that directory — instant dev environment.
-No more "works on my machine" excuses.
-
-## The catch
-
-Nix has a learning curve shaped like a brick wall. The docs are
-sparse. The error messages are cryptic. But once it clicks, you'll
-never want to go back to manually managing dependencies.
-
-Stay strong. Read the nix pills. Use the wiki. Ask in Discord.
-
-That's it for now. Back to writing flake.nix files at 3am.`,
-  },
     {
-    slug: "my-secrets",
-    title: "my-secrets",
+    slug: "my-simple-not-so-secret-note",
+    title: "my simple not so secret note",
     author: "chicocaine",
     date: "2026-06-05 14:32 UTC+8",
     content: `# My Secrets
     
-I am bad at taking notes and I have a girlfriend.
+I am bad at taking notes and also I have a girlfriend.
 `,
   },
   {
@@ -117,7 +66,7 @@ write zsh-only syntax in scripts you share.`,
     date: "2026-05-28 22:45 UTC+8",
     content: `# git commits that don't suck
 
-After reading too many commit messages like "fix stuff" and
+After reading too many commit messages like "fix stuff some bug" and
 "update", I wrote down some rules for myself.
 
 ## The format
@@ -177,7 +126,7 @@ Running Linux on Windows. It's better than you think.
 
 ## The setup
 
-WSL2 with Ubuntu or NixOS (yes, NixOS runs on WSL2).
+WSL2 with Ubuntu.
 Windows Terminal as the frontend. VSCode with the Remote-WSL
 extension. Files live in the Linux filesystem, not /mnt/c.
 

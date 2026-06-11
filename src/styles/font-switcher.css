@@ -1,5 +1,3 @@
 :root                                     { --font-current: "0x Proto Mono", monospace; }
 :root[data-font="0x-proto"]          { --font-current: "0x Proto Mono", monospace; }
-:root[data-font="big-blue-term"]     { --font-current: "Big Blue Term 437 Mono", monospace; }
-:root[data-font="big-blue-term-plus"] { --font-current: "Big Blue Term Plus Mono", monospace; }
 :root[data-font="departure"]         { --font-current: "Departure Mono Mono", monospace; }

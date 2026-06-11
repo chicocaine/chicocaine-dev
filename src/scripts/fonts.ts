@@ -1,7 +1,5 @@
 export type FontId =
   | "0x-proto"
-  | "big-blue-term"
-  | "big-blue-term-plus"
   | "departure";
 
 export interface Font {
@@ -11,15 +9,11 @@ export interface Font {
 
 const FONTS: Record<FontId, Font> = {
   "0x-proto":           { id: "0x-proto",           name: "0x Proto" },
-  "big-blue-term":      { id: "big-blue-term",      name: "Big Blue Term" },
-  "big-blue-term-plus": { id: "big-blue-term-plus", name: "Big Blue Term+" },
   departure:            { id: "departure",          name: "Departure Mono" },
 };
 
 const FONT_ORDER: FontId[] = [
   "0x-proto",
-  "big-blue-term",
-  "big-blue-term-plus",
   "departure",
 ];
 

@@ -1,6 +1,5 @@
 /* =========================
    default fallback (terminal)
-   prevents white flash before initTheme() runs
 ========================= */
 
 :root {

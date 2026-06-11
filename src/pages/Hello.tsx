@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Prompt from "../components/Prompt";
 import { getTheme } from "../scripts/themes";
 import { getLocalTime, getSessionUptime, initSession } from "../scripts/clock";
@@ -47,7 +46,7 @@ function Home() {
 
   return (
     <main className="bg-background flex-auto font-body p-6 sm:p-10 lg:p-14 flex flex-col gap-8 text-sm leading-relaxed">
-      {/* neofetch section */}
+      {/* fastfetch section */}
       <section>
         <p>
           <Prompt><span className="text-text">fastfetch</span></Prompt>
@@ -107,7 +106,7 @@ function Home() {
           <Prompt>
             <span className="text-text">cat</span>{" "}
             <span className="text-secondary">~</span>
-            <span className="text-text-muted">/about.md</span>
+            <span className="text-text-muted">/intro.md</span>
           </Prompt>
         </p>
         <div className="mt-4 space-y-4 text-text pl-4 border-l-2 border-border">
@@ -128,13 +127,9 @@ function Home() {
           </div>
 
           <p className="text-text-muted max-w-2xl">
-            Just a Computer Science student currently interested in AI and
-            Machine Learning, Modeling and Simulation, WebDev, and Game
-            Development. Always learning ;p. Always taking
-              <span className="text-text-muted hover:text-primary transition-colors">
-                <Link to="/secret-fun/notes"> notes </Link>
-              </span>
-            &lt;3.
+            Just a Computer Science student currently interested in AI &
+            Machine Learning, Modeling & Simulation, WebDev, and Game
+            Development. Always learning ;p.
           </p>
         </div>
       </section>

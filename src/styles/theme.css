@@ -166,3 +166,147 @@
     --warning: #e6c384;
     --danger: #e46876;
 }
+
+/* =========================
+   catppuccin mocha
+========================= */
+
+:root[data-theme="catppuccin"] {
+    --primary: #cba6f7;
+    --secondary: #f5c2e7;
+    --tertiary: #89b4fa;
+    --quaternary: #94e2d5;
+
+    --background: #1e1e2e;
+    --surface: #313244;
+
+    --text: #cdd6f4;
+    --text-muted: #6c7086;
+    --text-bright: #ffffff;
+
+    --border: #45475a;
+
+    --success: #a6e3a1;
+    --warning: #f9e2af;
+    --danger: #f38ba8;
+}
+
+/* =========================
+   tokyo night
+========================= */
+
+:root[data-theme="tokyonight"] {
+    --primary: #7aa2f7;
+    --secondary: #bb9af7;
+    --tertiary: #9ece6a;
+    --quaternary: #e0af68;
+
+    --background: #1a1b26;
+    --surface: #24283b;
+
+    --text: #c0caf5;
+    --text-muted: #565f89;
+    --text-bright: #ffffff;
+
+    --border: #3b4261;
+
+    --success: #9ece6a;
+    --warning: #e0af68;
+    --danger: #f7768e;
+}
+
+/* =========================
+   one dark
+========================= */
+
+:root[data-theme="onedark"] {
+    --primary: #61afef;
+    --secondary: #e06c75;
+    --tertiary: #e5c07b;
+    --quaternary: #c678dd;
+
+    --background: #21252b;
+    --surface: #282c34;
+
+    --text: #abb2bf;
+    --text-muted: #636d83;
+    --text-bright: #ffffff;
+
+    --border: #3e4452;
+
+    --success: #98c379;
+    --warning: #e5c07b;
+    --danger: #e06c75;
+}
+
+/* =========================
+   rosé pine
+========================= */
+
+:root[data-theme="rosepine"] {
+    --primary: #c4a7e7;
+    --secondary: #eb6f92;
+    --tertiary: #9ccfd8;
+    --quaternary: #f6c177;
+
+    --background: #191724;
+    --surface: #1f1d2e;
+
+    --text: #e0def4;
+    --text-muted: #6e6a86;
+    --text-bright: #ffffff;
+
+    --border: #26233a;
+
+    --success: #31748f;
+    --warning: #f6c177;
+    --danger: #eb6f92;
+}
+
+/* =========================
+   everforest dark
+========================= */
+
+:root[data-theme="everforest"] {
+    --primary: #83c092;
+    --secondary: #dbbc7f;
+    --tertiary: #7fbbb3;
+    --quaternary: #d699b6;
+
+    --background: #232a2e;
+    --surface: #2d353b;
+
+    --text: #d3c6aa;
+    --text-muted: #859289;
+    --text-bright: #f5eed7;
+
+    --border: #3a4248;
+
+    --success: #a7c080;
+    --warning: #e69875;
+    --danger: #e67e80;
+}
+
+/* =========================
+   solarized dark
+========================= */
+
+:root[data-theme="solarized"] {
+    --primary: #268bd2;
+    --secondary: #2aa198;
+    --tertiary: #b58900;
+    --quaternary: #6c71c4;
+
+    --background: #002b36;
+    --surface: #073642;
+
+    --text: #839496;
+    --text-muted: #586e75;
+    --text-bright: #fdf6e3;
+
+    --border: #073642;
+
+    --success: #859900;
+    --warning: #b58900;
+    --danger: #dc322f;
+}

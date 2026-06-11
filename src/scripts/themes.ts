@@ -4,7 +4,13 @@ export type ThemeId =
   | "monokai"
   | "gruvbox"
   | "nord"
-  | "kanagawa";
+  | "kanagawa"
+  | "catppuccin"
+  | "tokyonight"
+  | "onedark"
+  | "rosepine"
+  | "everforest"
+  | "solarized";
 
 export interface Theme {
   id: ThemeId;
@@ -17,7 +23,13 @@ const THEMES: Record<ThemeId, Theme> = {
   monokai:  { id: "monokai",  name: "Monokai" },
   gruvbox:  { id: "gruvbox",  name: "Gruvbox" },
   nord:     { id: "nord",     name: "Nord" },
-  kanagawa: { id: "kanagawa", name: "Kanagawa" },
+  kanagawa:  { id: "kanagawa",  name: "Kanagawa" },
+  catppuccin: { id: "catppuccin", name: "Catppuccin" },
+  tokyonight: { id: "tokyonight", name: "Tokyo Night" },
+  onedark:    { id: "onedark",    name: "One Dark" },
+  rosepine:   { id: "rosepine",   name: "Rosé Pine" },
+  everforest: { id: "everforest", name: "Everforest" },
+  solarized:  { id: "solarized",  name: "Solarized" },
 };
 
 const THEME_ORDER: ThemeId[] = [
@@ -27,6 +39,12 @@ const THEME_ORDER: ThemeId[] = [
   "gruvbox",
   "nord",
   "kanagawa",
+  "catppuccin",
+  "tokyonight",
+  "onedark",
+  "rosepine",
+  "everforest",
+  "solarized",
 ];
 
 const STORAGE_KEY = "theme";

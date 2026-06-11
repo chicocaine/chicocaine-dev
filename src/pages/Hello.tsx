@@ -50,7 +50,7 @@ function Home() {
       {/* neofetch section */}
       <section>
         <p>
-          <Prompt><span className="text-text">neofetch</span></Prompt>
+          <Prompt><span className="text-text">fastfetch</span></Prompt>
         </p>
         <div className="flex flex-col lg:flex-row gap-x-12 gap-y-4 mt-3 border-l-2 border-border pl-3">
           <AsciiArt />
@@ -63,7 +63,11 @@ function Home() {
             <p className="text-text-muted select-none">──────────────────</p>
             <p>
               <span className="text-primary font-bold">OS:</span>{" "}
-              <span className="text-text">NixOS</span>
+              <span className="text-text">Ubuntu 26.04 LTS</span>
+            </p>
+            <p>
+              <span className="text-primary font-bold">Host:</span>{" "}
+              <span className="text-text">Windows Subsystem for Linux</span>
             </p>
             <p>
               <span className="text-primary font-bold">Shell:</span>{" "}
@@ -87,7 +91,7 @@ function Home() {
             </p>
             <p>
               <span className="text-primary font-bold">Packages:</span>{" "}
-              <span className="text-text">42 (nix)</span>
+              <span className="text-text">42 (dpkg)</span>
             </p>
             <p>
               <span className="text-primary font-bold">Theme:</span>{" "}

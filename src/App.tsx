@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -12,7 +13,8 @@ import Notes from "./pages/secret-fun/notes";
 import Osu from "./pages/secret-fun/osu!";
 import Read from "./pages/secret-fun/read";
 import Watch from "./pages/secret-fun/watch";
-import TrueSecret from "./pages/true-secret/true-secret";
+
+const TrueSecret = lazy(() => import("./pages/true-secret/true-secret"));
 
 function App() {
   return (
@@ -32,7 +34,11 @@ function App() {
             <Route path="/secret-fun/notes" element={<Notes />} />
             <Route path="/secret-fun/read" element={<Read />} />
             <Route path="/secret-fun/watch" element={<Watch />} />
-            <Route path="/true-secrets" element={<TrueSecret />} />
+            <Route path="/true-secrets" element={
+              <Suspense fallback={
+                <div className="min-h-screen bg-background" />}>
+                <TrueSecret />
+              </Suspense>} />
           </Routes>
         </div>
         <Footer />

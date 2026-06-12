@@ -53,15 +53,19 @@ function About() {
           </p>
 
           <p className="text-text">
-            When I'm not coding, you'll find me listening to{" "}
+            When I'm not coding, you'll find me with some{" "}
             <span className="text-tertiary">music</span>, be in a{" "}
             <span className="text-quaternary">discord call</span> playing{" "}
             <span className="text-primary">video games</span>, or just generally{" "}
             <span className="text-secondary">chilling and learning</span>. I also occasionally{" "}
-            <Link to="/secret-fun/read" className="text-text hover:text-primary transition-colors">
+            <Link to="/secret-fun/read" className="text-secondary hover:text-primary transition-colors">
               read
-            </Link> and take some{" "}
-            <Link to="/secret-fun/notes" className="text-text hover:text-primary transition-colors">
+            </Link> and{" "}
+            <Link to="/secret-fun/watch" className="text-warning hover:text-primary transition-colors">
+              watch
+            </Link> things and maybe{" "}
+            take some{" "}
+            <Link to="/secret-fun/notes" className="text-tertiary hover:text-primary transition-colors">
               notes
             </Link>
             .

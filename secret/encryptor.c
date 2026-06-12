@@ -13,12 +13,12 @@
  * without extension).  A UTC timestamp is recorded in the envelope at
  * encryption time.
  *
- * Output is written as JSON (version 2) to <outdir>/<basename>.json
+ * Output is written as JSON to <outdir>/<basename>.json
  * (default outdir is src/messages relative to the project root).  The
  * plaintext file is removed after successful encryption unless --keep is
  * passed.
  *
- * Version 2 uses detached XChaCha20-Poly1305 encryption so that the
+ * This uses detached XChaCha20-Poly1305 encryption so that the
  * ciphertext and 16-byte Poly1305 authentication tag are stored as
  * separate fields.  This enables dual-layer decryption: strict (AEAD
  * verified) and interpretive (raw XChaCha20 stream without Poly1305
@@ -303,11 +303,11 @@ int main(int argc, char **argv) {
      * JSON format v2 (single line) — detached: ciphertext and auth_tag
      * are stored separately so interpretive (unauthenticated) decryption
      * can be attempted with alternate keys.
-     * {"version":2,"title":"...","author":"...","utc_timestamp":"...",
+     * {"title":"...","author":"...","utc_timestamp":"...",
      *  "nonce":"...","ciphertext":"...","auth_tag":"..."}
      */
     size_t json_len = (size_t)snprintf(NULL, 0,
-        "{\"version\":2,\"title\":\"%s\",\"author\":\"%s\","
+        "{\"title\":\"%s\",\"author\":\"%s\","
         "\"utc_timestamp\":\"%s\","
         "\"nonce\":\"%s\",\"ciphertext\":\"%s\",\"auth_tag\":\"%s\"}",
         escaped_title, escaped_author, escaped_utc,
@@ -319,7 +319,7 @@ int main(int argc, char **argv) {
         goto cleanup;
     }
     snprintf(json, json_len + 1,
-        "{\"version\":2,\"title\":\"%s\",\"author\":\"%s\","
+        "{\"title\":\"%s\",\"author\":\"%s\","
         "\"utc_timestamp\":\"%s\","
         "\"nonce\":\"%s\",\"ciphertext\":\"%s\",\"auth_tag\":\"%s\"}",
         escaped_title, escaped_author, escaped_utc,

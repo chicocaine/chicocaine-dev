@@ -195,19 +195,21 @@ function TrueSecret() {
       </p>
 
       <div className="mt-6 pl-4 border-l-2 border-border max-w-2xl">
-        <span className="text-primary select-none shrink-0">&gt;</span>
-        <input
-          ref={inputRef}
-          type="text"
-          value={key}
-          onChange={handleKeyChange}
-          placeholder="[key]"
-          spellCheck={false}
-          autoComplete="off"
-          className="flex-1 bg-transparent border-none outline-none text-text
-                      placeholder:text-text-muted/30 font-body text-sm
-                      px-2 py-1 rounded"
-        />
+        <div className="flex items-center gap-2">
+          <span className="text-primary select-none shrink-0">&gt;</span>
+          <input
+            ref={inputRef}
+            type="text"
+            value={key}
+            onChange={handleKeyChange}
+            placeholder="[key]"
+            spellCheck={false}
+            autoComplete="off"
+            className="flex-1 bg-transparent border-none outline-none text-text
+                        placeholder:text-text-muted/30 font-body text-sm
+                        px-2 py-1 rounded"
+          />
+        </div>
       </div>
 
       <p className="pt-8">

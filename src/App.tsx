@@ -7,6 +7,11 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import GameMasterAIV3 from "./pages/projects/game-master-ai-v3";
+import EchoChamberSim from "./pages/projects/echo-chamber-sim";
+import Eventara from "./pages/projects/eventara";
+import ChicocaineDev from "./pages/projects/chicocaine-dev";
+import Physics1012DPlatformer from "./pages/projects/physics101-2D-platformer";
 import Gaming from "./pages/secret-fun/gaming";
 import Music from "./pages/secret-fun/music";
 import Notes from "./pages/secret-fun/notes";
@@ -27,6 +32,11 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/game-master-ai-v3" element={<GameMasterAIV3 />} />
+            <Route path="/projects/echo-chamber-sim" element={<EchoChamberSim />} />
+            <Route path="/projects/eventara" element={<Eventara />} />
+            <Route path="/projects/chicocaine-dev" element={<ChicocaineDev />} />
+            <Route path="/projects/physics101-2D-platformer" element={<Physics1012DPlatformer />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/secret-fun/osu" element={<Osu />} />
             <Route path="/secret-fun/gaming" element={<Gaming />} />

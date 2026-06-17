@@ -171,6 +171,9 @@ function Home() {
               <span className="text-quaternary">
                 <span className="text-text-muted select-none">[</span>Java<span className="text-text-muted select-none">]</span>
               </span>
+              <span className="text-warning">
+                <span className="text-text-muted select-none">[</span>PHP<span className="text-text-muted select-none">]</span>
+              </span>
               <span className="text-text">
                 <span className="text-text-muted select-none">[</span>HTML<span className="text-text-muted select-none">]</span>
               </span>

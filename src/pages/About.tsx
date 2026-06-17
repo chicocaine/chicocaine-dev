@@ -172,6 +172,9 @@ function About() {
               <span className="text-quaternary">
                 <span className="text-text-muted select-none">[</span>Java<span className="text-text-muted select-none">]</span>
               </span>
+              <span className="text-warning">
+                <span className="text-text-muted select-none">[</span>PHP<span className="text-text-muted select-none">]</span>
+              </span>
               <span className="text-text">
                 <span className="text-text-muted select-none">[</span>HTML<span className="text-text-muted select-none">]</span>
               </span>
@@ -202,6 +205,9 @@ function About() {
               <span className="text-primary">
                 <span className="text-text-muted select-none">[</span>Node.js<span className="text-text-muted select-none">]</span>
               </span>
+              <span className="text-tertiary">
+                <span className="text-text-muted select-none">[</span>Laravel<span className="text-text-muted select-none">]</span>
+              </span>
               <span className="text-text-bright">
                 <span className="text-text-muted select-none">[</span>Vite<span className="text-text-muted select-none">]</span>
               </span>
@@ -229,8 +235,14 @@ function About() {
               <span className="text-success">
                 <span className="text-text-muted select-none">[</span>WSL<span className="text-text-muted select-none">]</span>
               </span>
+              <span className="text-secondary">
+                <span className="text-text-muted select-none">[</span>Bash<span className="text-text-muted select-none">]</span>
+              </span>
               <span className="text-quaternary">
                 <span className="text-text-muted select-none">[</span>Cloudflare<span className="text-text-muted select-none">]</span>
+              </span>
+              <span className="text-primary">
+                <span className="text-text-muted select-none">[</span>Copilot<span className="text-text-muted select-none">]</span>
               </span>
               <span className="text-warning">
                 <span className="text-text-muted select-none">[</span>Godot<span className="text-text-muted select-none">]</span>

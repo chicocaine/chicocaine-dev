@@ -227,7 +227,7 @@ function About() {
                 <span className="text-text-muted select-none">[</span>Git<span className="text-text-muted select-none">]</span>
               </span>
               <span className="text-success">
-                <span className="text-text-muted select-none">[</span>Linux<span className="text-text-muted select-none">]</span>
+                <span className="text-text-muted select-none">[</span>WSL<span className="text-text-muted select-none">]</span>
               </span>
               <span className="text-quaternary">
                 <span className="text-text-muted select-none">[</span>Cloudflare<span className="text-text-muted select-none">]</span>

@@ -241,6 +241,12 @@ function About() {
               <span className="text-text-bright">
                 <span className="text-text-muted select-none">[</span>Figma<span className="text-text-muted select-none">]</span>
               </span>
+              <span className="text-quaternary">
+                <span className="text-text-muted select-none">[</span>VSCode<span className="text-text-muted select-none">]</span>
+              </span>
+              <span className="text-secondary">
+                <span className="text-text-muted select-none">[</span>Claude Code<span className="text-text-muted select-none">]</span>
+              </span>
             </div>
           </div>
 

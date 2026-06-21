@@ -109,11 +109,16 @@ function About() {
             </p>
             <p>
               <span className="text-success select-none">→ </span>
+              Building a cashflow tracking app...{" "}
+              <span className="text-warning">more details coming soon</span>
+            </p>
+            {/* <p>
+              <span className="text-success select-none">→ </span>
               Building this portfolio with{" "}
               <span className="text-warning">React</span>,{" "}
               <span className="text-warning">TypeScript</span>, and{" "}
               <span className="text-warning">Cloudflare Workers</span>
-            </p>
+            </p> */}
             {/* <p>
               <span className="text-success select-none">→ </span>
               Learning{" "}

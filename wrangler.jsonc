@@ -17,6 +17,13 @@
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "streak_db",
+			"database_name": "streak-db",
+			"database_id": "72254340-75da-4b0f-8b7a-b22d5e6de356"
+		}
 	]
 	/**
 	 * Smart Placement

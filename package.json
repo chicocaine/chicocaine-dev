@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "npm run build && vite preview",
-    "deploy": "npm run build && wrangler deploy",
+    "preview": "pnpm run build && vite preview",
+    "deploy": "pnpm run build && wrangler deploy",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.36.3",
+    "@cloudflare/vite-plugin": "^1.52.1",
     "@cloudflare/workers-types": "^5.20260811.1",
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.3",
@@ -35,6 +35,6 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10",
-    "wrangler": "^4.120.1"
+    "wrangler": "^4.123.0"
   }
 }

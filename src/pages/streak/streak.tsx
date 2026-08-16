@@ -369,7 +369,7 @@ function Streak() {
           </>
         )}
       </div>
-      <StreakCli onSuccess={() => loadStreaks()} />
+      <StreakCli onSuccess={() => loadStreaks()} streaks={streaks} />
     </main>
   );
 }

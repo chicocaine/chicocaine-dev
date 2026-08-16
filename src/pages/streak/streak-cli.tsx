@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import Prompt from "../../components/Prompt";
 import { StreakActions } from "../../types/streak";
-import type { StreakAction, StreakApiResponse } from "../../types/streak";
+import type { Streak, StreakAction, StreakApiResponse } from "../../types/streak";
 
 const USER = "chico";
 
@@ -188,6 +188,13 @@ export const COMMANDS: CommandSpec[] = [
     help: "clear the command log",
     clientOnly: true,
   },
+  {
+    name: "key",
+    aliases: [],
+    usage: "key",
+    help: "show streak keys",
+    clientOnly: true,
+  },
 ];
 
 type ParseResult =
@@ -259,7 +266,13 @@ async function dispatch(
 
 type LogLine = { text: string; kind: "cmd" | "ok" | "err" | "info" };
 
-export default function StreakCli({ onSuccess }: { onSuccess: () => void }) {
+export default function StreakCli({
+  onSuccess,
+  streaks,
+}: {
+  onSuccess: () => void;
+  streaks: Streak[];
+}) {
   const [input, setInput] = useState("");
   const [log, setLog] = useState<LogLine[]>([]);
   const [history, setHistory] = useState<string[]>([]);
@@ -293,6 +306,13 @@ export default function StreakCli({ onSuccess }: { onSuccess: () => void }) {
     if (result.kind === "client") {
       if (result.command === "clear") {
         setLog([]);
+        return;
+      }
+      if (result.command === "key") {
+        const lines: LogLine[] = streaks.length
+          ? streaks.map((s): LogLine => ({ text: `${s.key}  —  ${s.label}`, kind: "info" }))
+          : [{ text: "no streaks", kind: "info" }];
+        setLog((prev) => [...prev, { text: raw, kind: "cmd" }, ...lines]);
         return;
       }
       // help

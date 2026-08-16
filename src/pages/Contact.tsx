@@ -48,7 +48,7 @@ function Contact() {
         body: formData,
       });
 
-      const data = await res.json();
+      const data = (await res.json()) as { success?: boolean; message?: string };
 
       if (data.success) {
         setStatus("success");

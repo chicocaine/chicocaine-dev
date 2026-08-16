@@ -9,6 +9,7 @@ const links = [
   { to: "/projects", label: "_projects" },
   { to: "/blog", label: "_blog" },
   { to: "/contact", label: "_contact" },
+  { to: "/streak", label: "_streaks"},
 ];
 
 function Navbar() {

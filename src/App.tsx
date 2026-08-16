@@ -18,6 +18,7 @@ import Notes from "./pages/secret-fun/notes";
 import Osu from "./pages/secret-fun/osu!";
 import Read from "./pages/secret-fun/read";
 import Watch from "./pages/secret-fun/watch";
+import Streak from "./pages/streak/streak";
 
 const TrueSecret = lazy(() => import("./pages/true-secret/true-secret"));
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="/secret-fun/notes" element={<Notes />} />
             <Route path="/secret-fun/read" element={<Read />} />
             <Route path="/secret-fun/watch" element={<Watch />} />
+            <Route path="/streak" element={<Streak />} />
             <Route path="/true-secrets" element={
               <Suspense fallback={
                 <div className="min-h-screen bg-background" />}>

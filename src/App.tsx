@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Hello";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import TheCostOfEfficiency from "./pages/blog/the-cost-of-efficiency";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import GameMasterAIV3 from "./pages/projects/game-master-ai-v3";
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/the-cost-of-efficiency" element={<TheCostOfEfficiency />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/game-master-ai-v3" element={<GameMasterAIV3 />} />
             <Route path="/projects/echo-chamber-sim" element={<EchoChamberSim />} />

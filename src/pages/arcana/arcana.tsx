@@ -169,21 +169,9 @@ function Arcana() {
       </p>
       <div className="mt-4 pl-4 border-l-2 border-border space-y-4 max-w-2xl">
         <p className="text-text">
-          You found the arcana. Here lies words that are closest to
-          me. Only few are meant to uncover them or perhaps none at all.
-        </p>
-        <p className="text-text">
-          This is a place of deep reflection and honesty, where I confess my
-          innermost thoughts and feelings. If you have found this page and
-          revealed what it holds, you are one of billions.
-        </p>
-        <p className="text-text">
-          You are not alone in your searching. I hope that my words can offer
-          you comfort and relief, hope and despair, attraction and repulse,
-          joy and sadness, fear and anger, love and apathy, jealousy and
-          hatred, insight and perspective, celebration and condolence,
-          stillness and change, confusion and understanding, and that you can
-          find your own truth in them.
+          You found the arcana. A place of deep reflection and honesty. 
+          Here lies words that are closest to me. Only few are meant to 
+          uncover them, or perhaps, none at all.
         </p>
       </div>
 

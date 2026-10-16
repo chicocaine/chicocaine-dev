@@ -1,14 +1,33 @@
+/*
+ * entry_01.tsx — GENERATED FILE, DO NOT EDIT BY HAND.
+ *
+ * Source:  entries/entry_01.md
+ * Command: make -C blog gen
+ * Parser:  blog/blog-parser.c
+ *
+ * Edit the markdown and re-run `make -C blog gen`. Hand edits here
+ * are overwritten. `make -C blog check` verifies this file is up to
+ * date.
+ */
+
 import Prompt from "../../components/Prompt";
 import { Link } from "react-router-dom";
 
-function TheCostOfEfficiency() {
+export const meta = {
+  id: "entry_01",
+  title: "The Cost of Efficiency",
+  date: "10-10-2026",
+  label: "entry_01.md",
+} as const;
+
+function Entry01() {
   return (
     <main className="bg-background flex-auto font-body p-6 sm:p-10 lg:p-14 text-sm leading-relaxed">
       <p>
         <Prompt>
           <span className="text-text">cat</span>{" "}
           <span className="text-secondary">~</span>
-          <span className="text-text-muted">/blog/the-cost-of-efficiency.md</span>
+          <span className="text-text-muted">/blog/entry_01.md</span>
         </Prompt>
       </p>
 
@@ -17,8 +36,6 @@ function TheCostOfEfficiency() {
           <span className="text-primary">entry_01</span>
           <span className="text-text-muted select-none"> · </span>
           <span className="text-quaternary">10-10-2026</span>
-          <span className="text-text-muted select-none"> · </span>
-          <span className="text-tertiary">reflection</span>
         </p>
         <p className="text-text-muted select-none mb-4">
           ─────────────────────────────
@@ -44,13 +61,9 @@ function TheCostOfEfficiency() {
             tried my hand at writing some good code; well, I thought it was
             decent enough, only to be entirely rewritten by a peer better than I
             was. I ended up being{" "}
-            <span className="text-text-muted italic">
-              &ldquo;the guy who buys snacks and coffee for the team&rdquo;
-            </span>{" "}
+            <span className="text-text-muted italic">&ldquo;the guy who buys snacks and coffee for the team&rdquo;</span>{" "}
             or{" "}
-            <span className="text-text-muted italic">
-              &ldquo;the guy who talks&rdquo;
-            </span>
+            <span className="text-text-muted italic">&ldquo;the guy who talks&rdquo;</span>
             . Needless to say, I felt entirely{" "}
             <span className="text-danger font-bold">useless</span>.
           </p>
@@ -61,22 +74,21 @@ function TheCostOfEfficiency() {
             about them until a quarter into 2023. Stumbling upon LLMs was like
             stumbling upon a list of GTA cheat codes. A hack. I could instruct it
             to get information or do things for me, and bam, just like that,
-            seconds later we get some text. Was the output good? I
-            wouldn&rsquo;t know at that time. I was clueless that I
-            couldn&rsquo;t tell. For a beginner however, it was{" "}
+            seconds later we get some text. Was the output good? I wouldn&rsquo;t know
+            at that time. I was clueless that I couldn&rsquo;t tell. For a beginner
+            however, it was{" "}
             <span className="text-success font-bold">empowering</span>.
           </p>
 
           <p>
             Since then, when learning how to code, or when doing a project, the
             process almost always included an LLM in the middle. I mean, it was
-            just more{" "}
-            <span className="text-primary font-bold">efficient</span> that way: I
-            could instruct it to explain how snippets of code worked; I could
-            instruct it to teach me how to code; I could instruct it to tell me
-            what the best architecture is for a specific set of requirements; I
-            could instruct it to write code for me; Fuck it, I could instruct it
-            to tell me how to instruct it better. It felt so{" "}
+            just more <span className="text-primary font-bold">efficient</span>{" "}
+            that way: I could instruct it to explain how snippets of code worked;
+            I could instruct it to teach me how to code; I could instruct it to
+            tell me what the best architecture is for a specific set of
+            requirements; I could instruct it to write code for me; Fuck it, I
+            could instruct it to tell me how to instruct it better. It felt so{" "}
             <span className="text-primary font-bold">fast</span> and so{" "}
             <span className="text-primary font-bold">good</span>. I could make
             decent projects. I can finally be{" "}
@@ -130,4 +142,4 @@ function TheCostOfEfficiency() {
   );
 }
 
-export default TheCostOfEfficiency;
+export default Entry01;

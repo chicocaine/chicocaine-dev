@@ -1,13 +1,8 @@
 import Prompt from "../components/Prompt";
 import { Link } from "react-router-dom";
-
-const posts = [
-  {
-    slug: "the-cost-of-efficiency",
-    label: "the-cost-of-efficiency.md",
-    meta: "10-10-2026 · reflection",
-  },
-];
+// Generated from blog/entries/*.md, already sorted newest first. Only
+// metadata — the post components load on demand in BlogPost.tsx.
+import { posts } from "./blog";
 
 function Blog() {
   return (
@@ -30,8 +25,8 @@ function Blog() {
         <div className="space-y-3">
           {posts.map((post) => (
             <Link
-              key={post.slug}
-              to={`/blog/${post.slug}`}
+              key={post.id}
+              to={`/blog/${post.id}`}
               className="block text-left w-full hover:bg-surface rounded px-2 py-1 -mx-2 transition-colors"
             >
               <p>
@@ -42,7 +37,7 @@ function Blog() {
                   {post.label}
                 </span>
               </p>
-              <p className="text-text-muted text-xs ml-4">{post.meta}</p>
+              <p className="text-text-muted text-xs ml-4">{post.date}</p>
             </Link>
           ))}
         </div>

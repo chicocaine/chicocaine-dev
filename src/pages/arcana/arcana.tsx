@@ -27,7 +27,7 @@ function Cursor() {
   );
 }
 
-function TrueSecret() {
+function Arcana() {
   const envelopes = useMemo(() => loadEnvelopes(), []);
 
   const [key, setKey] = useState<string>("");
@@ -93,7 +93,7 @@ function TrueSecret() {
             <span className="text-text-muted">--decrypt</span>{" "}
             <span className="text-secondary">~</span>
             <span className="text-text-muted">
-              /true-secrets/{envelope.slug}.json
+              /arcana/{envelope.slug}.json
             </span>
           </Prompt>
         </p>
@@ -164,18 +164,18 @@ function TrueSecret() {
         <Prompt>
           <span className="text-text">cat</span>{" "}
           <span className="text-secondary">~</span>
-          <span className="text-text-muted">/true-secret.md</span>
+          <span className="text-text-muted">/arcana.md</span>
         </Prompt>
       </p>
       <div className="mt-4 pl-4 border-l-2 border-border space-y-4 max-w-2xl">
         <p className="text-text">
-          You found the true secret page. Here lies words that are closest to
-          my being. Only few are meant to uncover them or perhaps none at all.
+          You found the arcana. Here lies words that are closest to
+          me. Only few are meant to uncover them or perhaps none at all.
         </p>
         <p className="text-text">
           This is a place of deep reflection and honesty, where I confess my
           innermost thoughts and feelings. If you have found this page and
-          revealed what it holds, consider yourself one of billions.
+          revealed what it holds, you are one of billions.
         </p>
         <p className="text-text">
           You are not alone in your searching. I hope that my words can offer
@@ -216,7 +216,7 @@ function TrueSecret() {
         <Prompt>
           <span className="text-text">ls</span>{" "}
           <span className="text-secondary">~</span>
-          <span className="text-text-muted">/true-secrets/</span>
+          <span className="text-text-muted">/arcana/</span>
         </Prompt>
       </p>
 
@@ -268,4 +268,4 @@ function TrueSecret() {
   );
 }
 
-export default TrueSecret;
+export default Arcana;

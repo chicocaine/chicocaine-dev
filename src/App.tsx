@@ -21,7 +21,7 @@ import Read from "./pages/secret-fun/read";
 import Watch from "./pages/secret-fun/watch";
 import Streak from "./pages/streak/streak";
 
-const TrueSecret = lazy(() => import("./pages/true-secret/true-secret"));
+const Arcana = lazy(() => import("./pages/arcana/arcana"));
 
 function App() {
   return (
@@ -48,10 +48,10 @@ function App() {
             <Route path="/secret-fun/read" element={<Read />} />
             <Route path="/secret-fun/watch" element={<Watch />} />
             <Route path="/streak" element={<Streak />} />
-            <Route path="/true-secrets" element={
+            <Route path="/arcana" element={
               <Suspense fallback={
                 <div className="min-h-screen bg-background" />}>
-                <TrueSecret />
+                <Arcana />
               </Suspense>} />
           </Routes>
         </div>

@@ -18,4 +18,10 @@ export const posts: BlogMeta[] = [
     date: "10-10-2026",
     label: "entry_01.md",
   },
+  {
+    id: "entry_02",
+    title: "Secure Boot Incident",
+    date: "24-10-2026",
+    label: "entry_02.md",
+  },
 ];

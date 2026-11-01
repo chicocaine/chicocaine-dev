@@ -24,4 +24,10 @@ export const posts: BlogMeta[] = [
     date: "24-10-2026",
     label: "entry_02.md",
   },
+  {
+    id: "entry_03",
+    title: "The Dual Boot Experience",
+    date: "01-11-2026",
+    label: "entry_03.md",
+  },
 ];

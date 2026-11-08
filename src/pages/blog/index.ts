@@ -30,4 +30,10 @@ export const posts: BlogMeta[] = [
     date: "01-11-2026",
     label: "entry_03.md",
   },
+  {
+    id: "entry_04",
+    title: "Hello :)",
+    date: "08-11-2026",
+    label: "entry_04.md",
+  },
 ];

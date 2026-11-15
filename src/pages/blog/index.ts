@@ -36,4 +36,10 @@ export const posts: BlogMeta[] = [
     date: "08-11-2026",
     label: "entry_04.md",
   },
+  {
+    id: "entry_05",
+    title: "Ryoku Linux",
+    date: "15-11-2026",
+    label: "entry_05.md",
+  },
 ];
